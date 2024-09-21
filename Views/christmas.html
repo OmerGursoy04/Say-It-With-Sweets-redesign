@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas</title>
+    <link rel = "stylesheet" href = "../Statics/style.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script defer src = "../Statics/script.js"></script>
+    <link rel = "stylesheet" href = "https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+<body style = "margin: 0px; display: flex; flex-direction: column;">
+    <a class = "back-home" href = "index.html">
+        <div class = "header-christmas">
+            <img class = "banner" src = "../Statics/christmas/chirstmas-banner.jpg" alt = "Say It With Sweets banner in Penn State colors">
+        </div>
+    </a>
+    <div class = "navbar">
+        <nav style = "background-color: #165B33;" id = "nav-menu">
+                <div style = "background-color: #165B33;" class = "home-dropdown">
+                    <a id = "home-hover" href = "index.html">
+                        <p style = "color: white;" class = "subnavbtn"><span class = "underline-christmas">Home</span></p>
+                    </a>
+                    <div style = "background-color: #BB2528;" class = "home-content">
+                        <div class = "cupcakes-cookies">
+                            <div class = "col-flex">
+                                <p style = "color: white;" id = "cupcakes">Cupcakes</p>
+                                <a class = "cupcake-bouquets" id = "cupcake-bouquets-christmas" href = "cupcake-bouquets.html">Cupcake Bouquets</a>
+                            </div>
+                            <div class = "col-flex">
+                                <p style = "color: white;" id = "cookies">Cookies</p>
+                                <a class = "cookie-cakes" id = "cookie-cakes-christmas" href = "cookie-cakes-custom-made-cookies.html">Cookie Cakes &amp; Custom Made Cookies</a>
+                                <a class = "cookie-trays" id = "cookie-trays-christmas" href = "cookie-gift-boxes-cookie-trays.html">Cookie Gift Boxes &amp; Cookie Trays</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p style = "color: white; padding: 0;" class = "subnavbtn">
+                    |
+                </p>
+                <div style = "background-color: #165B33;" class = "home-dropdown">
+                    <p id = "specials-hover" style = "color: white;" class = "subnavbtn"><span class = "underline-christmas">Specials</span></p>
+                    <div style = "background-color: #BB2528;" class = "home-content">
+                        <div class = "cupcakes-cookies"> 
+                            <div class = "col-flex">
+                                <p style = "color: white;" id = "celebrations">Celebrations</p>
+                                <a class = "halloween" id = "halloween-christmas" href = "halloween.html">Halloween</a>
+                                <a class = "christmas" id = "christmas-christmas" href = "christmas.html">Christmas</a>
+                                <a class = "valentine" id = "valentine-christmas" href = "valentines.html">Valentine's Day</a>
+                                <a class = "easter" id = "easter-christmas" href = "easter-and-fall.html">Easter &amp; Fall</a>
+                                <a class = "celebration-cakes" id = "celebration-cakes-christmas" href = "celebration-cakes.html">Celebration Cakes</a>
+                            </div>
+                            <div class = "col-flex">
+                                <p style = "color: white;" id = "penn-state">Penn State</p>
+                                <a class = "nittany-lions" id = "nittany-lions-christmas" href = "nittany-lions.html">Nittany Lions</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p class = "subnavbtn" style = "color: white; padding: 0;">
+                    |
+                </p>
+                <div class = "home-dropdown">
+                    <p style = "color: white;" id = "about-hover" class = "subnavbtn"><span class = "underline-christmas">About</span></p>
+                    <div style = "background-color: #BB2528;" class = "home-content">
+                        <div class = "col-flex" style = "margin-top: 8px;">
+                            <a class = "about-us" id = "about-us-christmas" href = "about-us.html">About Us</a>
+                            <a class = "contact-us" id = "contact-us-christmas" href = "contact-us.html">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+        </nav>
+    </div>
+        <div class = "christmas-content">
+            <img class = "christmas-cookie" src = "../Statics/christmas/christmas-cupcakes.jpg" alt = "Christmas-themed cupcakes ">
+            <p class = "christmas-message">
+                Our Christmas cupcakes are a delightful assortment of holiday flavors and 
+                designs. Imagine biting into a soft, moist cupcake, each one a little piece of 
+                holiday joy, adorned with festive decorations such as Santa hats, Christmas 
+                trees, and more. These cupcakes are not only a feast for the taste buds but 
+                also a visual treat that captures the essence of Christmas spirit. They're 
+                perfect for holiday parties, as a sweet treat for the family, or as a thoughtful
+                gift to spread the warmth of the season.
+            </p>
+            <table>
+                <tr><th class = "table-headers-christmas">Size</th><th class = "table-headers-christmas">Price</th></tr>
+                <tr><td>4 cupcakes</td><td>$6.99</td></tr>
+                <tr class = "medium-christmas"><td>7 cupcakes</td><td>$11.99</td></tr>
+                <tr><td>12 cupcakes</td><td>$14.99</td></tr>
+            </table>
+        </div>
+        <div style = "justify-content: flex-end;" class = "christmas-content">
+            <table style = "margin-top: 40px; margin-right: 50px;">
+                <tr><th class = "table-headers-christmas">Size</th><th class = "table-headers-christmas">Price</th></tr>
+                <tr><td>small</td><td>$7.99</td></tr>
+                <tr class = "medium-christmas"><td>medium</td><td>$12.99</td></tr>
+                <tr><td>large</td><td>$15.99</td></tr>
+            </table>
+            <p style = "text-align: center;" class = "christmas-message">
+                Our cookie trays are a holiday tradition in the making. 
+                Each tray is a carefully curated assortment of cookies, featuring classic holiday
+                flavors like gingerbread, peppermint, and chocolate chip, alongside beautifully 
+                decorated sugar cookies in the shapes of Christmas trees, Christmas socks, 
+                 and Santa Claus. These trays are ideal for sharing with family and friends 
+                during holiday gatherings, leaving out for Santa, or enjoying with a cup of hot 
+                cocoa by the fire. The variety and quality of our cookies ensure that there's 
+                something delightful for every taste and preference.
+            </p>
+            <img class = "christmas-cookie" src = "../Statics/christmas/christmas-cookies.jpg" alt = "Christmas-themed cookie trays">
+        </div>
+        <div class = "christmas-content">
+            <img class = "christmas-cookie" src = "../Statics/christmas/christmas-gift-boxes.jpg" alt = "Christmas-themed gift boxes">
+            <p class = "christmas-message">
+                For those looking to send a gift that conveys warmth and sweet holiday wishes,
+                 our cookie gift boxes are the answer. Elegantly packaged and filled with an assortment
+                of our finest Christmas-themed cookies, these gift boxes are a thoughtful and 
+                delicious way to show someone you care. Whether it's for a loved one, a 
+                colleague, or a neighbor, a box of our festive cookies is a heartfelt reminder 
+                of the joy and generosity that define the holiday season.
+            </p>
+            <table>
+                <tr><th class = "table-headers-christmas">Size</th><th class = "table-headers-christmas">Price</th></tr>
+                <tr><td>Small</td><td>$9.99</td></tr>
+                <tr class = "medium-christmas"><td>Medium</td><td>$14.99</td></tr>
+                <tr><td>Large</td><td>$19.99</td></tr>
+            </table>
+        </div>
+    <footer style = "background-color: footer;">
+        <div class = "row-flex-footer">
+            <img style = "background-color: #BB2528;" class = "banner-footer" src = "../Statics/christmas/chirstmas-banner.jpg" alt = "Say It With Sweets banner">
+            <div id = "col-flex-footer" class = "col-flex" style = "font-weight: normal;">
+                <p style = "color: #BB2528;" id = "location">1307 Pleasant Valley Blvd.</p>
+                <p style = "color: #BB2528;">Altoona PA 16602 US</p>
+                <p style = "color: #BB2528;" id = "phone-number">Call +1 (814) 937-1564 to make an order</p>
+                <p><a style = "color: #BB2528;" id = "mail-address" href = "mailto:info@sayitwithsweets.com"><u>info@sayitwithsweets.com</u></a></p>
+                <p style = "color: #BB2528;">
+                    Pick up hours M-F 10:00AM-3:00PM.
+                </p>
+                <p style = "color: #BB2528;">
+                    All items are order only - no walk in shop.
+                </p>
+                <p style = "color: #BB2528;">
+                    Prepay with a credit card
+                    Weekend by appointment
+                </p>
+            </div>
+            <div id = "col-flex-map-icons" class = "map">
+                <iframe src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5589.888849435705!2d-78.39154219391469!3d40.50507071374715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89cb918855bb7c8b%3A0x7d6079aaf48c3657!2sSay%20It%20With%20Sweets!5e0!3m2!1sen!2sus!4v1711952503256!5m2!1sen!2sus" 
+                        width = "235" height = "175" style = "border:0;" allowfullscreen = "" loading = "lazy" referrerpolicy = "no-referrer-when-downgrade" alt = "map location of Say It With Sweets">
+                </iframe>
+                <div class = "icons-christmas">
+                    <a href = "https://www.facebook.com/say.it.with.sweets/" target = "_blank" alt = "Facebook icon taking the user to our Facebook profile">
+                        <i class = "fab fa-facebook" style = "font-size: 36px; background-color: #bb2528; color: #165B33; margin-left: 25px; margin-top: 50px;"></i>
+                    </a>
+                    <a href = "https://www.yelp.com/biz/say-it-with-sweets-altoona" target = "_blank" alt = "Yelp icon taking the user to our Yelp profile">
+                        <i class = "fab fa-yelp" style = "font-size: 36px; background-color: #BB2528; color: #165B33; margin-left: 25px; margin-top: 50px; padding-left: 12px; padding-right: 12px; border-radius: 30px;"></i>
+                    </a>
+                    <a href = "https://www.instagram.com/sayitwithsweets11/" target = "_blank" alt = "Instagram icon taking the user to our Intagram profile">     
+                        <i class = "fab fa-instagram" style = "font-size: 36px; background-color: #BB2528; color: #165B33; margin-left: 25px; margin-top: 50px;"></i>
+                    </a>
+                    <a href = "https://www.tripadvisor.com/Restaurant_Review-g30034-d5017286-Reviews-" target = "_blank" alt = "Tripadvisor icon taking the user to our Tripadvisor profile">
+                        <i class = "fab fa-tripadvisor" style = "font-size: 30px; background-color: #BB2528; color: #165B33; margin-left: 25px; margin-right: 25px; margin-top: 50px; padding-top: 11px; padding-bottom: 11px; padding-left: 10px; padding-right: 10px; border-radius: 30px;"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
